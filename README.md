@@ -12,3 +12,10 @@ If arguments are given, outputs the title of each arguments, otherwise outputs t
 - `-i` — Try to retrieve the title from the `_NET_WM_VISIBLE_NAME` atom.
 - `-f FORMAT` — Use the given `printf`-style format. The only supported sequences are `%s` (for title), `%u` (for window id) and `\n`.
 - `-t NUMBER` — Truncate the title after |*NUMBER*| characters starting at the first (or the last if *NUMBER* is negative) character.
+
+# Dependencies
+
+## Ubuntu
+
+`apt install libxcb-ewmh-dev`
+
